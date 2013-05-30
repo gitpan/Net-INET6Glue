@@ -1,9 +1,10 @@
 --- #YAML:1.0
 name:               Net-INET6Glue
-version:            0.5
+version:            0.6
 abstract:           ~
-author:  []
-license:            unknown
+author:
+    - Steffen Ullrich <sullr.org>
+license:            perl
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
@@ -12,11 +13,16 @@ build_requires:
 requires:
     IO::Socket::INET6:  2.54
     Net::FTP:           2.75
+resources:
+    bugtracker:  https://rt.cpan.org/Dist/Display.html?Queue=Net-INET6Glue
+    homepage:    https://github.com/noxxi/p5-net-inet6glue
+    license:     http://dev.perl.org/licenses/
+    Repository:  https://github.com/noxxi/p5-net-inet6glue
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by:       ExtUtils::MakeMaker version 6.57_05
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4

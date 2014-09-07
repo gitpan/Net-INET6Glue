@@ -9,4 +9,5 @@ README
 t/01_inet_is_inet6.t
 t/02_ftp_load.t
 t/external/03_ftp6.t
-META.yml                                 Module meta-data (added by MakeMaker)
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
